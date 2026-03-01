@@ -436,7 +436,7 @@ main {
     display: none;
 }
 #all-toggle{
-    margin-left: 20%;
+    /* margin-left: 20%; */
 }
 
 #all-toggle, #archive-toggle, #groups-toggle, #unread-toggle {
@@ -561,6 +561,9 @@ main {
     .nav-links-2 button span {
         font-size: 9px;
     }
+    #all-toggle{
+    margin-left: 20%;
+    }
 }
 
 /* ====================
@@ -587,3 +590,4 @@ main {
     background: #ddd;
     border-radius: 2px;
 }
+
